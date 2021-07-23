@@ -99,7 +99,7 @@ public class stepDefination  extends Utils{
 	public void verify_place_Id_create_maps_to_using(String expectedname, String Apiname) throws Exception {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "");
+		
 	
 		place_id=getJsonpath(response, "place_id");
 		
